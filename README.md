@@ -1,5 +1,5 @@
 # Discord Bot
-This is my attempt at a discord both with python3 <br /> 
+This is my attempt at a discord bot with python3 <br /> 
 will update readme as I progress further <br />
 
 ## Current functions

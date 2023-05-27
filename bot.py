@@ -29,7 +29,7 @@ def run_discord_bot():
     #tells us that bot is up and ready
     @client.event
     async def on_ready():
-        print(f'{client.user} is running!')
+        print(f'{client.user} is awake!')
     
     @client.event
     async def on_message(message):
@@ -37,6 +37,7 @@ def run_discord_bot():
         if message.author == client.user:
             return
         
+        #defined terms for debugging
         username = str(message.author)
         user_message = str(message.content)
         channel = str(message.content)

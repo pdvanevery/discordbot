@@ -8,7 +8,7 @@ def handle_response(message) -> str:
         return 'Hey there!'
 
     if p_message == 'roll':
-        return str(random.randint(1,6))
+        return f'You rolled a {str(random.randint(1,6))}!'
 
     if p_message == '!help':
         #the `` creates a code block on discord

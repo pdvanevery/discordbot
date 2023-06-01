@@ -6,6 +6,9 @@ def handle_response(message) -> str:
 
     if p_message == 'hello':
         return 'Hey there!'
+    
+    if p_message == 'goodbye':
+        return 'Thanks for stopping by!'
 
     if p_message == 'roll':
         return f'You rolled a {str(random.randint(1,6))}!'
